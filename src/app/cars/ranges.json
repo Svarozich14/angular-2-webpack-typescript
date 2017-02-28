@@ -1,0 +1,22 @@
+[
+  {
+    "Id" : 1,
+    "Name" : "Focus",
+    "ManufacturerId" : 1
+  },
+  {
+    "Id" : 2,
+    "Name" : "Mondeo",
+    "ManufacturerId" : 1
+  },
+  {
+    "Id" : 3,
+    "Name" : "A1",
+    "ManufacturerId" : 2
+  },
+  {
+    "Id" : 4,
+    "Name" : "A6",
+    "ManufacturerId" : 2
+  }
+]

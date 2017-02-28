@@ -1,0 +1,38 @@
+[
+  {
+    "Title": "BMW release a new 3-series coupe",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+    "ImageUrl": "/images/news/bmw-release-a new-3-series-coupe.jpg",
+    "Url": "#BMWNewsLink"
+  },
+  {
+    "Title": "Audi Q7 Unleashed - see the latest model",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+    "ImageUrl": "/images/news/audi-q7-unleashed-see-the-latest-model.jpg",
+    "Url": "#AudiNewsLink"
+  },
+  {
+    "Title": "Ford Focus Hatchback 2.0ST 5dr - Amazing deal",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+    "ImageUrl": "/images/news/ford-focus-hatchback-st-amazing-deal.jpg",
+    "Url": "#FordNewsLink"
+  },
+  {
+    "Title": "Tesla Model 3 nets 115,000 orders",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+    "ImageUrl": "/images/news/tesla-model-3-nets-115-000-orders.jpg",
+    "Url": "#TeslaNewsLink"
+  },
+  {
+    "Title": "The end of cars is not coming, so bore off already",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+    "ImageUrl": "/images/news/the-end-of-cars-is-not-coming-so-bore-off-already.jpg",
+    "Url": "#EndOfCarNewsLink"
+  },
+  {
+    "Title": "The Ultimate Supermobile Concept Car",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+    "ImageUrl": "/images/news/ford-focus-hatchback-st-amazing-deal.jpg",
+    "Url": "#ConceptCarNewsLink"
+  }
+]

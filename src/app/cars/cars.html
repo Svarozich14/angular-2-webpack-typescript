@@ -1,0 +1,80 @@
+<div class="cars-container">
+    <h2 class="cars-h2">
+        Get Started Now!
+    </h2>
+    <h3 class="cars-h3">Choose a car...</h3>
+    <div class="carSelectGroup">
+        <div class="selectForm left">
+            <form #carForm="ngForm" (ngSubmit)="getOffers()">
+                <div class="form-group">
+                    <select class="form-control" id="manufacturer"
+                            required
+                            (change)="manufacturerChanged()"
+                            name="manufacturer"
+                            #manufacturerId="ngModel"
+                            [(ngModel)]="searchData.manufacturerId">
+                        <option value="null" [selected]="!searchData.manufacturerId" disabled
+                        >Choose Manufacturer...</option>
+                        <option *ngFor="let manufacturer of manufacturers" [value]="manufacturer.Id">
+                            {{manufacturer.Name}}
+                        </option>
+                    </select>
+
+                    <select class="form-control" id="range"
+                            [hidden]="!searchData.manufacturerId"
+                            required
+                            (change)="rangeChanged()"
+                            name="range"
+                            #rangeId="ngModel"
+                            [(ngModel)]="searchData.rangeId">
+                        <option value="null" [selected]="!searchData.rangeId" disabled
+                        >Choose Model...</option>
+                        <option *ngFor="let range of ranges" [value]="range.Id">{{range.Name}}</option>
+                    </select>
+
+                </div>
+                <button type="submit" class="btn btn-primary" [disabled]="!carForm.valid">
+                    <span>Find Price ></span>
+                </button>
+            </form>
+            <div class="quote">
+                <div class="text"><i>The Lead Agency helped me get a great deal on my new car. I saved £3500 and also
+                    got sat nav added for free!</i></div>
+                <div class="author">Mike P, Dorset</div>
+            </div>
+        </div>
+        <div class="offer" *ngIf="offerShow">
+            <div class="title">{{offers.Title}}</div>
+            <div class="image">
+                <img class="offerImage" src="{{offers.ImageUrl}}"/>
+            </div>
+            <div class="bottom">
+                <div class="price">
+                    <span class="currentPrise">£ {{offers.Price}}</span>
+                    <span class="savedPrice">saving £ {{offers.Saving}}</span>
+                </div>
+                <div class="btnMore">
+                    <a class="btn btn-primary" [href]="offers.Url">
+                        <span>More Info ></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carsNews">
+        <div class="news-title">
+            Latest News...
+        </div>
+        <div class="articles-outer">
+            <div class="prev" (click)="prev()"><</div>
+            <div class="articles">
+                <div class="articles-inner">
+                    <article class="col-lg-4 col-md-6 col-sm-12" *ngFor="let article of carArticles"
+                             [article]="article"></article>
+                </div>
+            </div>
+            <div class="next" (click)="next()">></div>
+        </div>
+    </div>
+</div>

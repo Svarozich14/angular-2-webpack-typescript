@@ -1,0 +1,26 @@
+[
+  {
+    "Title" : "Ford Focus Deal",
+    "ImageUrl" : "/images/vehicles/ford-focus.jpg",
+    "Price" : 15995,
+    "Saving" : 3500,
+    "Url": "#FordFocusDeal",
+    "RangeId" : 1
+  },
+  {
+    "Title" : "Ford Mondeo Deal",
+    "ImageUrl" : "/images/vehicles/ford-mondeo.jpg",
+    "Price" : 19995,
+    "Saving" : 4200,
+    "Url": "#FordMondeoDeal",
+    "RangeId" : 2
+  },
+  {
+    "Title" : "Audi A1 Deal",
+    "ImageUrl" : "/images/vehicles/audi-a1.jpg",
+    "Price" : 14530,
+    "Saving" : 2761,
+    "Url": "#AudiA1Deal",
+    "RangeId" : 3
+  }
+]
